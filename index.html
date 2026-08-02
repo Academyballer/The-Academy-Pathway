@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Academy Pathway</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>The Academy Pathway</h1>
+</header>
+
+<section class="hero">
+<h2>Your path into an academy.</h2>
+<p>Click below to learn.</p>
+<button onclick="showMenu()">Get Started</button>
+</section>
+
+<div id="menu" class="hidden">
+
+<h2>What do you want to work on?</h2>
+
+<div class="cards">
+
+<div class="card" onclick="showPage('physical')">
+<h3>⚡ Physicality</h3>
+</div>
+
+<div class="card" onclick="showPage('mental')">
+<h3>🧠 Mental</h3>
+</div>
+
+<div class="card" onclick="showPage('technical')">
+<h3>⚽ Technical</h3>
+</div>
+
+<div class="card" onclick="showPage('iq')">
+<h3>🎯 Game IQ</h3>
+</div>
+
+</div>
+
+</div>
+
+<div id="physical" class="page hidden">
+
+<h2>Physicality</h2>
+
+<p>
+This is important for you and will make you better,
+but not without the others.
+</p>
+
+<h3>Upper Body</h3>
+
+<ul>
+<li>Plyo Pushups 5 x 5</li>
+<li>Med Ball Throw 5 x 5</li>
+<li>Bench Press 5 x 5</li>
+<li>Dips 4 x 8</li>
+<li>Pull Ups 3 sets to failure</li>
+</ul>
+
+<h3>Legs</h3>
+
+<ul>
+<li>Squats 3 x 8</li>
+<li>Split Squats 3 x 8 each side</li>
+<li>Soleus Raise 3 x 3</li>
+</ul>
+
+<p class="contact">
+Call me:
+<br><br>
+073 847 0708
+</p>
+
+<button onclick="back()">Back</button>
+
+</div>
+
+<div id="mental" class="page hidden">
+
+<h2>Mental</h2>
+
+<p>
+This is so much more important than you think.
+</p>
+
+<p>
+Confidence.<br>
+Discipline.<br>
+Consistency.<br>
+Mindset wins games.
+</p>
+
+<p class="contact">
+Call:
+<br><br>
+073 847 0708
+</p>
+
+<button onclick="back()">Back</button>
+
+</div>
+
+<div id="technical" class="page hidden">
+
+<h2>Technical</h2>
+
+<p>
+The most important and overlooked part.
+This workout took me far.
+</p>
+
+<ul>
+<li>Cone Weave</li>
+<li>Freestyle Dribbling</li>
+<li>Ball Mastery</li>
+</ul>
+
+<p>
+Want more?
+</p>
+
+<p class="contact">
+Call:
+<br><br>
+073 847 0708
+</p>
+
+<button onclick="back()">Back</button>
+
+</div>
+
+<div id="iq" class="page hidden">
+
+<h2>Game IQ</h2>
+
+<p>
+Football is not only about talent.
+Learn movement,
+positioning,
+decision making
+and scanning.
+</p>
+
+<p class="contact">
+Call:
+<br><br>
+073 847 0708
+</p>
+
+<button onclick="back()">Back</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
