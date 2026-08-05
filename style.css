@@ -223,3 +223,49 @@ font-size:34px;
 }
 
 }
+.call-box{
+
+background:#181818;
+
+padding:30px;
+
+border-radius:20px;
+
+margin:40px auto;
+
+max-width:600px;
+
+border:2px solid #00ff88;
+
+}
+
+
+.call-box li{
+
+list-style:none;
+
+font-size:18px;
+
+margin:10px;
+
+}
+
+
+.form-container{
+
+display:flex;
+
+justify-content:center;
+
+margin-top:40px;
+
+}
+
+
+.form-container iframe{
+
+border-radius:20px;
+
+max-width:100%;
+
+}
